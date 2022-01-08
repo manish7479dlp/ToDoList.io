@@ -1,5 +1,6 @@
 import React from 'react';
 import './App.css'
+import List from './List'
 
 function App(){
   return (
@@ -10,6 +11,17 @@ function App(){
           <br/>
           <input className='input' type= "text" placeholder='Enter Your Task..'/>
           <button className='addbtn'>+</button>
+          <ul>
+            <List 
+              text = "Manish"
+            />
+            <List 
+              text = "Manish"
+            />
+            <List 
+              text = "Mnish"
+            />
+          </ul>
         </div>
       </div>
     </>
