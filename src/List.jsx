@@ -1,12 +1,12 @@
 import react from 'react'
 
-const listItem = "Manish how are you..."
+
 
 const List = (prob) =>{
     return (
         <>
             <div className='item'>
-                <span>X</span>
+                <span onClick={prob.onSelect}>X</span>
                 <li className='list'>{prob.text}</li>
             </div>
         </>
